@@ -8,7 +8,7 @@ library(ggplot2)
 
 genius_token <- function(force = FALSE) {
   
-  env <- Sys.getenv('PmZdHsMHlhx2tJGbcWVRVlkdPtOZdWOj9nW9ES-dHrVEMg8cqG8b6tBOn0wvalys')
+  env <- Sys.getenv('YOUR API KEY')
   if (!identical(env, "") && !force) return(env)
   
   if (!interactive()) {
